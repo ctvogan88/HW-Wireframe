@@ -10,7 +10,9 @@ body {
     color: #ebebeb;
     background-color: #777;
 }
-
+p{
+    text-align: center;
+}
 header {
     height: 100px;
     margin: auto;
@@ -25,7 +27,7 @@ header {
 nav {
     height: 100px;
     line-break: auto;
-    margin: auto;
+    margin: 0px;
     border: 1px, black;
     color: #777;
     background: #ebebeb;
@@ -55,8 +57,9 @@ nav {
   }
 
 #section-left{
-    width: 60%;
+    width: 576px;
     height: 300px;
+    margin-right: -384px;
     background-color: #ebebeb;
     color: #777;
   }
